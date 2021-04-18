@@ -83,8 +83,7 @@ let stack = [];
 let done = false;
 
 function setup() {
-	let winSize = min(windowHeight, windowWidth);
-	createCanvas(min(1000, winSize), min(1000, winSize));
+	createCanvas(600, 600);
 
 	w = floor(width / cols);
 
