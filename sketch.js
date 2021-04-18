@@ -74,18 +74,19 @@ class Cell {
 	}
 }
 let grid = [];
-const w = 20;
-let cols, rows;
+let cols = 25,
+	rows = cols;
+let w;
 let current;
 
 let stack = [];
 let done = false;
+
 function setup() {
-let winSize = min(windowHeight, windowWidth);
+	let winSize = min(windowHeight, windowWidth);
 	createCanvas(min(1000, winSize), min(1000, winSize));
 
-	cols = floor(width / w);
-	rows = floor(height / w);
+	w = floor(width / cols);
 
 	for (let i = 0; i < rows; i++) {
 		for (let j = 0; j < cols; j++) {
