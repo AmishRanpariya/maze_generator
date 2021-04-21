@@ -12,4 +12,13 @@ PS: hit spacebar when done to download your very own maze and try to solve it if
 
 For mobile users double tap to download maze.👍🏻
 
+#### Examples
+
+![maze generation](maze30x30_1.png)
+![maze generation](maze30x30_3.png)
+![maze generation](maze30x30.png)
+![maze generation](maze15x15.png)
+![maze generation](maze60x60_1.png)
+![maze generation](maze60x60.png)
+
 > Happy coding🥰
